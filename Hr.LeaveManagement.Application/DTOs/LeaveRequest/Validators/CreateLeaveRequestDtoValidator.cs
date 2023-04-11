@@ -22,7 +22,7 @@ namespace Hr.LeaveManagement.Application.DTOs.LeaveRequest.Validators
                 .MustAsync(async (id, token) =>
                 {
 
-                }).WithMessage("{PropertyValue} does not exist")
+                }).WithMessage("{PropertyValue} does not exist");
         }
     }
 }
